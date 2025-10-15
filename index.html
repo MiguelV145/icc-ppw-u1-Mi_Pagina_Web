@@ -4,30 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi pagina web</title>
-    <link rel="stylesheet" href="codigo.css" />
+    
     <!--darlos bordes a al tabla---->
-    <style>
-      table,
-      th,
-      td {
-        border: 1px solid blue;
-      }
-    </style>
+   
   </head>
 
   <body>
     <header>
-      <h1>Mi pagina web</h1>
-      <h2>estandartes web</h2>
-      <nav>
+      <h1 >Mi pagina web</h1>
+      <h2>UNIDAD 1- Estandartes Web</h2>
         <ul>
      
             <a href="https://github.com/MiguelV145/icc-ppw-u1-Mi_Pagina_Web" target="_blank" >Mi github</a>
       
         </ul>
-    </nav>
     </header>
-    <p>Hola gente como esta kdmewdodmewmopde</p>
+    <p>Hola gente este es un trabajo de implementacion de html, css y javascript. </p>
 
     
     
@@ -43,15 +35,24 @@
         <tr>
           <td>
             <!--para poder difinir elemetos estadares de nuestra tabla -->
-            div
+            &lt;article&gt;
           </td>
           <td>
             <!--para poder difinir elemetos estadares de nuestra tabla -->
-            Es un contenedor genérico sin significado semántico. Se usa para agrupar elementos y aplicar estilos o scripts.
+            Se usa para contenido independiente o reutilizable, como:
+              <ul>
+              <li>Artículos de un blog</li>
+
+              <li>Comentarios</li>
+
+              <li>Publicaciones de foros</li>
+
+             <li> Widgets con su propio título</li>
+            </ul>
           </td>
         </tr>
         <tr>
-          <td>aside</td>
+          <td>&lt;aside&gt;</td>
           <td>
             Contiene información complementaria o tangencial, como:
             <ul>
@@ -64,21 +65,34 @@
           </td>
         </tr>
       </table>
+
+
+      <button id="agregarFila">Agregar fila</button>
       <!--------------------------------------->
     </section>
-        <article>
+        
+    <section>
+      <h2>Section: articule</h2>
+      <article>
             <h2>Planeta azul: Neptuno</h2>
-            <p>que se destaca por su color azul intenso debido a la presencia de metano en su atmósfera. Aunque la Tierra también se ve de color azul debido a su gran cantidad de agua, Neptuno es el único planeta del sistema solar que se le atribuye este color característico. Neptuno es el octavo planeta del sistema solar y se encuentra a aproximadamente 4.500 millones de kilómetros del Sol.</p>
+            <p>Que se destaca por su color azul intenso debido a la presencia de metano en su atmósfera. Aunque la Tierra también se ve de color azul debido a su gran cantidad de agua, Neptuno es el único planeta del sistema solar que se le atribuye este color característico. Neptuno es el octavo planeta del sistema solar y se encuentra a aproximadamente 4.500 millones de kilómetros del Sol.</p>
             <img src="OIP.webp" width="300"></img>
         </article>
-    <section>
-      <h2>Section:</h2>
+        <aside>
+        <!-- El aside se usa para información relacionada o complementaria -->
+        <h3 id="curiosidad">Dato curioso</h3>
+        <p>
+          Neptuno tiene los vientos más rápidos del sistema solar, alcanzando hasta 2,100 km/h.
+          Esta información complementa el artículo principal sobre el planeta.
+        </p>
+      </aside>
     </section>
 
     <footer>
       <p>Nombre: Miguel Vanegas Materia: Programacion y plataformas web</p>
+      
     </footer>
 
-
+    
   </body>
 </html>
