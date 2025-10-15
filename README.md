@@ -2,10 +2,10 @@
 
 ## Práctica 1 - Explorando 
 
-**Asignatura:** Programación y Plataforma web
-**Unidad:** 1.2- Estandares web
-**Estudiante:** Miguel Vanegas
-**Repositorio:** [https://github.com/MiguelV145/icc-ppw-u1-Mi_Pagina_Web]
+**Asignatura:** Programación y Plataforma web  
+**Unidad:** 1.2- Estandares web  
+**Estudiante:** Miguel Vanegas  
+**Repositorio:** [https://github.com/MiguelV145/icc-ppw-u1-Mi_Pagina_Web]  
 **Página desplegada (GitHub Pages):** [https://miguelv145.github.io/icc-ppw-u1-Mi_Pagina_Web/]
 
 ---
