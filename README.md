@@ -3,7 +3,7 @@
 ## Práctica 1 - Explorando 
 
 **Asignatura:** Programación y Plataforma web
-**Unidad: **1.2- Estandares web
+**Unidad:** 1.2- Estandares web
 **Estudiante:** Miguel Vanegas
 **Repositorio:** [https://github.com/MiguelV145/icc-ppw-u1-Mi_Pagina_Web]
 **Página desplegada (GitHub Pages):** [https://miguelv145.github.io/icc-ppw-u1-Mi_Pagina_Web/]
@@ -24,11 +24,11 @@
 
 | Etiqueta  | Descripción  | Implementacion  |
 |------------|-------------|-----------|
-|'<article>' | Sección independiente del contenido principal, como un artículo, comentario o publicación. | descripcion de un planeta |
-| 'aside' |   Informacion complementaria  | nota o informacion extra |
+|`<article>` | Sección independiente del contenido principal, como un artículo, comentario o publicación. | descripcion de un planeta |
+| `aside` |   Informacion complementaria  | nota o informacion extra |
 
 **Código usado:**
-'''
+```
 <article>
     <h2>Planeta azul: Neptuno</h2>
         <p>Que se destaca por su color azul intenso debido a la presencia de metano en su atmósfera. Aunque la Tierra también se ve de color azul debido a su gran cantidad de agua, Neptuno es el único planeta del sistema solar que se le atribuye este color característico. Neptuno es el octavo planeta del sistema solar y se encuentra a aproximadamente 4.500 millones de kilómetros del Sol.</p>
@@ -41,7 +41,7 @@
         <p> Neptuno tiene los vientos más rápidos del sistema solar, alcanzando hasta 2,100 km/h.   Esta información complementa el artículo principal sobre el planeta.
         </p>
 </aside>
-'''
+```
 
 # Práctica 2 - Adición  de CSS y JavaScript
 
@@ -58,10 +58,12 @@ Estructura final del proyecto:
 '''
 icc-ppw-u1-mi-pagina-web/
 |
+├── con_CSS_JS.png
 ├── index.html
 ├── OIP.webp
 ├── README.md
 ├── script.js
+├── sin_CSS_JS.png
 └── style.css
 
 '''
@@ -74,22 +76,21 @@ Los nuevos archivos se enlazaron dentro del documento `index.html` de la siguien
 
 **En el `<head>` (para el CSS):**
 
-'''html
+```html
 <!DOCTYPE html>
 <html lang="es">
   <head>
     <link rel="stylesheet" href="style.css" />
   </head>
-'''
-
+```
 
 **Antes de cerrar el `<body>` (para el JavaScript):**
 
-'''html
+```html
   <body>  
     <script src="script.js"></script>
   </body>
-'''
+```
 
 
 ### 3. Estilos aplicados con CSS
@@ -97,17 +98,17 @@ Los nuevos archivos se enlazaron dentro del documento `index.html` de la siguien
 
 | Elemento                    | Estilo implementado                                            | Descripción                             |
 | --------------------------- | -------------------------------------------------------------- | --------------------------------------- |
-| 'body'                      | 'font-family: Arial, sans-serif; background-color: #f5f5f5; margin: 20px; | Define la tipografía, color de fondo claro y margen general para dar espacio a la página. |
-| 'header'                    |   'text-align: center; background-color: #0077cc;  color: white;   padding: 15px;   border-radius: 8px;' | Centra el texto del encabezado, usa un color de fondo azul, texto blanco y bordes redondeados para darle un aspecto moderno y atractivo |
-| 'table'                     |  'border: 1px solid black;  border-collapse: collapse;  background-color: white;'   |  Crea una tabla con bordes definidos, sin espacios entre celdas, y un fondo blanco para resaltar los datos. |
-| 'button'                    |  'background-color: #0077cc; color: white; padding: 10px 20px; border: none; border-radius: 6px; cursor: pointer; transition: background-color 0.3s;' | Botón azul con texto blanco, esquinas redondeadas, y efecto de transición al pasar el cursor |
-| 'button: hover '| 'background-color: orange;'| Cambia a color naranja cuando el usuario pasa el mouse (como en tu JavaScript). |
-| 'section'                   |   'background-color: lightblue;  padding: 15px;  border-left: 4px solid #0077cc;  margin-top: 20px;' | Resalta una sección con fondo celeste, borde lateral azul y espacio interno, separándola visualmente del resto del contenido. |
-| 'article'                  |  'background-color: #ffffff;    padding: 15px;    border: 1px solid #ddd;    border-radius: 6px;    margin-top: 10px;' | Barra de progreso con fondo blanco, borde suave y esquinas redondeadas; ocupa todo el ancho del contenedor y mantiene un aspecto limpio. |
+| `body`                      | `font-family: Arial, sans-serif; background-color: #f5f5f5; margin: 20px;` | Define la tipografía, color de fondo claro y margen general para dar espacio a la página. |
+| `header`                    |   `text-align: center; background-color: #0077cc;  color: white;   padding: 15px;   border-radius: 8px;` | Centra el texto del encabezado, usa un color de fondo azul, texto blanco y bordes redondeados para darle un aspecto moderno y atractivo |
+| `table`                    |  `border: 1px solid black;  border-collapse: collapse;  background-color: white;`   |  Crea una tabla con bordes definidos, sin espacios entre celdas, y un fondo blanco para resaltar los datos. |
+| `button`                   |  `background-color: #0077cc; color: white; padding: 10px 20px; border: none; border-radius: 6px; cursor: pointer; transition: background-color 0.3s;` | Botón azul con texto blanco, esquinas redondeadas, y efecto de transición al pasar el cursor |
+| `button: hover `| `background-color: orange;`| Cambia a color naranja cuando el usuario pasa el mouse (como en tu JavaScript). |
+| `section`                   |   `background-color: lightblue;  padding: 15px;  border-left: 4px solid #0077cc;  margin-top: 20px;` | Resalta una sección con fondo celeste, borde lateral azul y espacio interno, separándola visualmente del resto del contenido. |
+| `article`                  |  `background-color: #ffffff;    padding: 15px;    border: 1px solid #ddd;    border-radius: 6px;    margin-top: 10px;` | Barra de progreso con fondo blanco, borde suave y esquinas redondeadas; ocupa todo el ancho del contenedor y mantiene un aspecto limpio. |
 
 **Ejemplo en el código:**
 
-'''css
+```css
 button {
   background-color: #0077cc;
   color: white; 
@@ -126,7 +127,7 @@ section {
   border-left: 4px solid #0077cc;
   margin-top: 20px;
 }  
-'''
+```
 ###  4. Interactividad agregada con JavaScript
 
 El archivo `script.js` incorpora dos acciones básicas:
@@ -134,7 +135,7 @@ El archivo `script.js` incorpora dos acciones básicas:
 
 1. **Agregar una nueva fila a la tabla al presionar el botón**
 
-'''javascript
+```javascript
 document.addEventListener("DOMContentLoaded", () => {
   // Botón para agregar nueva fila a la tabla
   const boton = document.getElementById("agregarFila");
@@ -149,11 +150,11 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
-'''
+```
 
 2. **Cambia el color del boton al pasar el mouse por encima**
 
-'''javascript
+```javascript
 const colorOriginal = window.getComputedStyle(boton).backgroundColor;
     boton.addEventListener("mouseover", () => {
       boton.style.backgroundColor = "orange";
@@ -164,7 +165,7 @@ const colorOriginal = window.getComputedStyle(boton).backgroundColor;
       boton.style.backgroundColor = colorOriginal || "";
       boton.style.color = "";
 });
-'''
+```
 
 ## Capturas de pantalla del proyecto final 
 
@@ -172,4 +173,4 @@ const colorOriginal = window.getComputedStyle(boton).backgroundColor;
 ![alt text](<sin_CSS_JS.png>)
 
 ** navegador con CSS/JS**
-![alt text](<con_CSS_JS.pngng>)
+![alt text](<con_CSS_JS.png>)
