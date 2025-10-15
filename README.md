@@ -8,6 +8,7 @@
 **Repositorio:** [https://github.com/MiguelV145/icc-ppw-u1-Mi_Pagina_Web]
 **Página desplegada (GitHub Pages):** [https://miguelv145.github.io/icc-ppw-u1-Mi_Pagina_Web/]
 
+---
 
 ## Estructura HTML utilizada
 
@@ -28,7 +29,8 @@
 | `aside` |   Informacion complementaria  | nota o informacion extra |
 
 **Código usado:**
-```
+
+```html
 <article>
     <h2>Planeta azul: Neptuno</h2>
         <p>Que se destaca por su color azul intenso debido a la presencia de metano en su atmósfera. Aunque la Tierra también se ve de color azul debido a su gran cantidad de agua, Neptuno es el único planeta del sistema solar que se le atribuye este color característico. Neptuno es el octavo planeta del sistema solar y se encuentra a aproximadamente 4.500 millones de kilómetros del Sol.</p>
@@ -55,7 +57,7 @@
 
 Estructura final del proyecto:
 
-'''
+```
 icc-ppw-u1-mi-pagina-web/
 |
 ├── con_CSS_JS.png
@@ -65,8 +67,7 @@ icc-ppw-u1-mi-pagina-web/
 ├── script.js
 ├── sin_CSS_JS.png
 └── style.css
-
-'''
+```
 
 
 ### 2. Implementación en HTML
@@ -169,8 +170,8 @@ const colorOriginal = window.getComputedStyle(boton).backgroundColor;
 
 ## Capturas de pantalla del proyecto final 
 
-** navegador sin CSS/JS**
+**navegador sin CSS/JS**
 ![alt text](<sin_CSS_JS.png>)
 
-** navegador con CSS/JS**
+**navegador con CSS/JS**
 ![alt text](<con_CSS_JS.png>)
